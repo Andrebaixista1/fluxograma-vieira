@@ -1,0 +1,12 @@
+.options {
+    font-size: 3vw;
+    font-style:oblique;
+    font-weight:400;
+}
+
+.options li{
+    list-style:inside url('../../../public/images/Vieira/mais-list.png');
+    margin: 10px;
+    cursor: pointer;
+    
+}

@@ -1,0 +1,30 @@
+.Menu{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.Menu form{
+    max-width: 80%;
+    border: #fff solid 0.1px;
+    background-color: #161B22;
+    color: #fff;
+    border-radius: 20px;
+    padding: 36px 64px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.8);
+}
+/* 
+.Menu .title{
+    font-size: 4.5vw;
+    font-style:oblique;
+    font-weight:500;
+} */
+
+@media (max-width: 830px){
+   
+    .Menu form{
+        font-size: 3vw;
+        padding: 10px;
+        /* max-width: 50%; */
+    }
+}
